@@ -9,4 +9,9 @@ public class TestController {
     public String test() {
         return "test, 用来测试jenkins, 这是一个后端项目test";
     }
+
+    @GetMapping("/test2")
+    public String test1() {
+        return "jenkins的钩子是否生效了?";
+    }
 }
