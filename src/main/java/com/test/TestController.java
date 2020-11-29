@@ -12,6 +12,6 @@ public class TestController {
 
     @GetMapping("/test2")
     public String test1() {
-        return "jenkins的钩sd子是否kk生dsfjk效了?";
+        return "jenkins的kk钩sd子是否kk生dsfjk效了?";
     }
 }
