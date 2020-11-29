@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String test() {
-        return "test, 用来sssdfdfdf测sdf试jenkins, 这是一个后端项目test";
+        return "test, 用来sssdfdfdf测sdfsdfsdf试jenkins, 这是一个后端项目test";
     }
 
     @GetMapping("/test2")
